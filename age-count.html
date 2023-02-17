@@ -30,14 +30,14 @@
     }
     </style>
 </head>
-<body data-new-gr-c-s-check-loaded="14.1087.0" data-gr-ext-installed="">
+<body>
     <div class="countdown">
         <!-- Display the countdown timer in an element -->
         <p id="demo"></p>        
         <p id="demo0">Salma's Age:<br><br>20 days, 4 hours, 48 minutes, 2 seconds </p>        
         <p id="demo1">Asma's Age:<br><br>1 year, 11 months, 8 days, 4 hours, 48 minutes, 2 seconds </p>          
         <p id="demo3">Bayejid's Age:<br><br>33 years, 18 days, 14 hours, 48 minutes, 2 seconds </p>     
-        <p id="demo2">MDuration:<br><br>3 years, 2 months, 17 days, 14 hours, 48 minutes, 2 seconds </p>        
+        <!-- <p id="demo2">MDuration:<br><br>3 years, 2 months, 17 days, 14 hours, 48 minutes, 2 seconds </p>         -->
     </div>
 
     <script>
@@ -126,7 +126,18 @@
     setDate('Asma\'s Age', 'Dec 14, 2020 15:45:00', "demo1");
     setDate('MDuration', 'Sep 6, 2019 5:45:00', "demo2");
     setDate('Bayejid\'s Age', 'Nov 12, 1989 5:45:00', "demo3");
-    alert("Screen resolution is " + screen.width + "x" + screen.height);
+
+
+    // function tempAlert(msg,duration) {
+    //   var el = document.createElement("div");
+    //   el.setAttribute("style","position:absolute;top:40px;left:50%;transform:translateX(-50%);padding:5px 20px;background-color:white;");
+    //   el.innerHTML = msg;
+    //   setTimeout(function(){
+    //     el.parentNode.removeChild(el);
+    //   },duration);
+    //   document.body.appendChild(el);
+    // }
+    // tempAlert("Screen resolution is " + screen.width + "x" + screen.height,2000);
     </script>
 
-</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
+</body>
